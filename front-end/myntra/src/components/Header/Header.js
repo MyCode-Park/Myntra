@@ -62,7 +62,12 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('md')]: {
-      width: '20ch',
+      width: '40ch',
+      backgroundColor: "#9992",
+      color: "black",
+      float: 'right',
+      paddingBottom: '15px',
+      paddingTop: '15px'
     },
   },
   sectionDesktop: {
@@ -189,8 +194,8 @@ export default function Header() {
               <SearchIcon style={{color: "#282c3f"}}/>
             </div>
             <InputBase
-            style={{color: "#696e79", border: "1px solid"}}
-              placeholder="Search…"
+            style={{color: "#696e79", width: '100%'}}
+              placeholder="Search for products, brands and more"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
