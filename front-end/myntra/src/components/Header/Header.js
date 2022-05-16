@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
   },
   inputRoot: {
-    color: 'inherit',
+    color: 'grey',
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
@@ -202,12 +202,12 @@ export default function Header() {
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="grey">
               <Badge badgeContent={4} color="primary">
-                <LocalMallOutlinedIcon titleAccess='Shoping'/>
+                <LocalMallOutlinedIcon fontSize='large'/>
               </Badge>
             </IconButton>
             <IconButton aria-label="show 17 new notifications" color="grey">
               <Badge badgeContent={17} color="secondary">
-                <FavoriteBorderOutlinedIcon title='WishList'/>
+                <FavoriteBorderOutlinedIcon fontSize='large'/>
               </Badge>
             </IconButton>
             <IconButton
@@ -218,7 +218,7 @@ export default function Header() {
               onClick={handleProfileMenuOpen}
               color="grey"
             >
-              <AccountCircle />
+              <AccountCircle fontSize='large'/>
             </IconButton>
           </div>
           <div className={classes.sectionMobile}>
