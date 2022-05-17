@@ -1,0 +1,32 @@
+.slider__container {
+  padding-bottom: 25px;
+}
+.carousel-indicators {
+  bottom: -45px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  color: black !important;
+  border-top: unset !important;
+  width: 10px !important;
+  border-bottom: unset !important;
+  border: 10px solid transparent !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+  border-radius: 100% !important;
+  background-color: #7e818c !important;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.carousel-indicators .active {
+  border-top: unset !important;
+  border-bottom: unset !important;
+  border: 10px solid transparent !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+  border-radius: 100% !important;
+  background-color: #7e818c !important;
+  height: 10px !important;
+  width: 10px !important;
+}
