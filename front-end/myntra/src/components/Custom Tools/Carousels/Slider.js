@@ -1,6 +1,6 @@
 import React from "react";
 import "./Slider.css";
-import { Carousel, Container } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import img1 from "../../../assets/Sliders/Levis.webp";
 import img2 from "../../../assets/Sliders/2.jpg";
 import img3 from "../../../assets/Sliders/3.jpg";

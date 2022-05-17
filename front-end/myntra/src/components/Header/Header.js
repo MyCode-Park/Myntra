@@ -1,6 +1,6 @@
 import React from 'react';
 import { alpha, makeStyles } from '@material-ui/core/styles';
-import {AppBar, Toolbar, IconButton,Typography,
+import {AppBar, Toolbar, IconButton, Typography,
     InputBase,
     Badge } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
