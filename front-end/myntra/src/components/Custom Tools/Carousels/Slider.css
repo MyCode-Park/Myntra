@@ -1,5 +1,6 @@
 .slider__container {
-  padding-bottom: 25px;
+  padding-top: 45px;
+  padding-bottom: 35px;
 }
 .carousel-indicators {
   bottom: -45px !important;

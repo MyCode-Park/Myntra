@@ -1,0 +1,27 @@
+.deal__container {
+}
+
+
+
+.deal--list {
+}
+
+.row {
+ padding-left: 0 !important;
+ padding-right: 0 !important;
+ --bs-gutter-x: 0 !important;
+ margin-right: 0 !important; 
+margin-left: 0 !important;
+}
+
+.deal--img {
+  width: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
