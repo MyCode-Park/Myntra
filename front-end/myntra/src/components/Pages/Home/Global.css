@@ -3,10 +3,10 @@
   text-transform: uppercase;
   color: #3e4152;
   letter-spacing: 0.15em;
-  font-size: 2.0em;
-  margin: 60px 0 60px 30px !important;
-  max-height: 5em;
-  font-weight: 500;
+  font-size: 2.2em;
+  margin: 50px 0 60px 30px;
+  max-height: 6em;
+  font-weight: 600;
   text-align: left;
   white-space: break-spaces;
 }

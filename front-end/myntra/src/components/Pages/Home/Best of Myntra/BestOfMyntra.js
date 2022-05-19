@@ -6,10 +6,9 @@ import '../Global.css'
 function BestOfMyntra() {
   return (
     <div className='deal__container'>
-      <Typography wrap className="glb--title" variant="h4" noWrap>
+      <h4 wrap className="glb--title">
         Best of myntra exclusive brands
-      </Typography>
-
+      </h4>
       <div className="deal--list">
         <Row className="deal--listRow">
           <Col><img src="as" className="deal--img" alt="Image 1" /></Col>

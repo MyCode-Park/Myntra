@@ -92,7 +92,7 @@ export default function Header() {
     <div className={classes.grow}>
       <AppBar position="static" style={{backgroundColor: "#fff", paddingTop: "18px", paddingBottom: "18px"}}>
         <Toolbar>
-            <img src={myntra_logo} alt="Myntra" style={{width: "5%", paddingLeft: "30px"}}></img>
+            <img src={myntra_logo} alt="Myntra" style={{width: "6%", paddingLeft: "30px"}}></img>
           <Typography className="{classes.title}, navtitle" variant="h6" noWrap>
             MENS
           </Typography>

@@ -14,10 +14,9 @@ import img8 from '../../../../assets/Deals/8.webp'
 function DealsOfTheDays() {
   return (
     <div className='deal__container'>
-      <Typography wrap className="glb--title" variant="h4" noWrap>
+      <h4 className="glb--title">
         deal of the day
-      </Typography>
-
+      </h4>
       <div className="deal--list">
         <Row className="deal--listRow">
           <Col><img src={img1} className="deal--img" alt="Image 1" /></Col>
