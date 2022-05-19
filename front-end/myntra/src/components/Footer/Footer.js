@@ -48,7 +48,7 @@ function Footer() {
                                     <a><i class="fa-brands fa-facebook-square"></i></a>
                                     <a><i class="fa-brands fa-twitter"></i></a>
                                     <a><i class="fa-brands fa-youtube"></i></a>
-                                    <a><i class="fa-brands fa-instagram-square"></i></a>
+                                    <a><i class=" fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
