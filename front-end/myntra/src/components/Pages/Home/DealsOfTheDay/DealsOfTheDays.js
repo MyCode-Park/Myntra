@@ -1,5 +1,4 @@
 import { React } from "react"
-import { Typography } from '@material-ui/core'
 import { Row, Col } from 'react-bootstrap'
 import '../Global.css'
 import './/../DealsOfTheDay/Deals.css'
