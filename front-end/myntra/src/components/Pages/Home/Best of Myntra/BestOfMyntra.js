@@ -5,11 +5,10 @@ import "../Global.css";
 
 function BestOfMyntra() {
   return (
-    <div className="deal__container">
-      <Typography wrap className="glb--title" variant="h4" noWrap>
+    <div className='deal__container'>
+      <h4 wrap className="glb--title">
         Best of myntra exclusive brands
-      </Typography>
-
+      </h4>
       <div className="deal--list">
         <Row className="deal--listRow">
           <Col>
