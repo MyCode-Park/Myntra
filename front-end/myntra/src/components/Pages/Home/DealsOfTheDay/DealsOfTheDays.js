@@ -19,14 +19,14 @@ function DealsOfTheDays() {
       </h4>
       <div className="deal--list">
         <Row className="deal--listRow">
-          <Col><img src={img1} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img2} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img3} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img4} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img5} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img6} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img7} className="deal--img" alt="Image 1" /></Col>
-          <Col><img src={img8} className="deal--img" alt="Image 1" /></Col>
+          <Col><img src={img1} className="deal--img" alt="img" /></Col>
+          <Col><img src={img2} className="deal--img" alt="img" /></Col>
+          <Col><img src={img3} className="deal--img" alt="img" /></Col>
+          <Col><img src={img4} className="deal--img" alt="img" /></Col>
+          <Col><img src={img5} className="deal--img" alt="img" /></Col>
+          <Col><img src={img6} className="deal--img" alt="img" /></Col>
+          <Col><img src={img7} className="deal--img" alt="img" /></Col>
+          <Col><img src={img8} className="deal--img" alt="img" /></Col>
         </Row>
       </div>
     </div >
