@@ -153,7 +153,7 @@ export default function Header() {
                 <FavoriteBorderOutlinedIcon fontSize="large" />
               </Badge>
             </IconButton>
-            <Link to='/myntra/signup'>
+            <Link to='/signup'>
               <IconButton
                 edge="end"
                 aria-label="account of current user"

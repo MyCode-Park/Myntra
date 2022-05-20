@@ -19,7 +19,7 @@ function App() {
           }
         ></Route>
         <Route
-          path="/myntra/signup"
+          path="/signup"
           element={
             <>
               <Header></Header>
