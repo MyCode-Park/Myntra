@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Pages/Home/Home";
 import Signup from "./components/Signup/Signup";
 import { Routes, Route } from "react-router-dom";
+import Login from "./components/Signup/Login";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           element={
             <>
               <Header></Header>
-              <Signup></Signup>
+              <Login />
             </>
           }
         ></Route>

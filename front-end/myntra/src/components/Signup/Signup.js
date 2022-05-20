@@ -94,6 +94,7 @@ function Signup() {
                 id="phone number"
                 type="number"
                 name="phone number"
+                label="required"
                 placeholder="+91 | Mobile Number"
                 onChange={(e) => e.target.value}
               />{" "}
