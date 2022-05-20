@@ -3,3 +3,7 @@
     padding-right: 20px;
     color: #282c3f;
 }
+
+.navtitle:hover {
+    border-bottom: #ad0e43;
+}

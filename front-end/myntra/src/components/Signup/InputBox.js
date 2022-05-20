@@ -1,8 +1,11 @@
+ signup
 import React from "react";
 import { TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { InputAdornment ,IconButton} from "@material-ui/core";
-
+import { TextField } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+ main
 const useStyles = makeStyles((theme) => ({
   root: {
     "& .MuiInputBase-root": {
@@ -43,8 +46,8 @@ export function InputBox(props) {
     helperText,
     fullWidth,
     placeholder,
-    onClick,
-    
+
+    onClick
   } = props;
   return (
     <TextField
@@ -54,11 +57,13 @@ export function InputBox(props) {
           //  root: classes.inputCss
           notchedOutline: classes.notchedOutline,
         },
+
         endAdornment: (
           <InputAdornment position="end" >
             <IconButton onClick={onClick} style={{color:'red'}}></IconButton>
           </InputAdornment>
         ),
+
       }}
       className={classes.root}
       id={id}
@@ -71,7 +76,10 @@ export function InputBox(props) {
       helperText={helperText}
       fullWidth={fullWidth}
       placeholder={placeholder}
+
       onClick={onClick}
+
+
     />
   );
 }
