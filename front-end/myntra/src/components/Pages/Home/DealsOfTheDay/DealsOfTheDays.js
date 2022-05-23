@@ -1,6 +1,6 @@
 import { React } from "react"
 import { Row, Col } from 'react-bootstrap'
-import '../Global.css'
+import "../../../../Global.css";
 import './/../DealsOfTheDay/Deals.css'
 import img1 from '../../../../assets/Deals/1.webp'
 import img2 from '../../../../assets/Deals/2.webp'
