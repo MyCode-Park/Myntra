@@ -5,6 +5,9 @@ import Home from "./components/Pages/Home/Home";
 import Signup from "./components/Signup/Signup";
 import { Routes, Route } from "react-router-dom";
 
+import Login from "./components/Signup/Login";
+
+
 function App() {
   return (
     <div className="App">
@@ -23,7 +26,11 @@ function App() {
           element={
             <>
               <Header></Header>
+
+              <Login />
+
               <Signup></Signup>
+
             </>
           }
         ></Route>

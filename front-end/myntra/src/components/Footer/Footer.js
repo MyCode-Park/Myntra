@@ -1,10 +1,10 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import "./Footer.css";
 import Original from "../../assets/Footer/Original.png";
 import Return from "../../assets/Footer/30DaysReturn.png";
 import GPlay from "../../assets/Footer/GPlay.png";
 import AppStore from "../../assets/Footer/AppStore.png";
+import { Container, Col, Row } from 'react-bootstrap'
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import 'font-awesome/css/font-awesome.min.css';
