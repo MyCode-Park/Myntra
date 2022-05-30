@@ -2,7 +2,9 @@ import React from 'react'
 
 const ResetForm = () => {
   return (
-    <div>ResetForm</div>
+    <div>
+        <h1>Reset Form</h1>
+    </div>
   )
 }
 
