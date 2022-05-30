@@ -5,25 +5,26 @@ import { ActionButton } from "./ActionButton";
 import { InputBox } from "./InputBox";
 
 const useStyles = makeStyles((theme) => ({
-  backdrop: {
-    color: "#fff",
-    position: "absolute",
-    zIndex: 100,
-  },
+  
   root: {
     // position: "relative",  zIndex: 0,
     backgroundColor: "#FFE6F3",
     height: "100vh",
     overFlow: "hidden",
+    width:"100%",
+    minWidth:"300px",
   },
   container: {
-    display: "flex",
+   
     justifyContent: "center",
     margin: 0,
-    paddingTop: "40px",
+    paddingTop: "70px",
+    
+    
   },
   content: {
-    width: "400px",
+    width:"400px",
+    minWidth: "350px",
   },
 
   //   banner: {
