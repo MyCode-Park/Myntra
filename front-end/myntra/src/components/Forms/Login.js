@@ -60,6 +60,13 @@ function Login(props) {
     setPasswordShown(!passwordShown);
     console.log("helloworld");
   }
+<<<<<<< HEAD:front-end/myntra/src/components/Forms/Login.js
+  function eventhandler(e){
+    e.preventDefault();
+    console.log("helloworld");
+  }
+=======
+>>>>>>> 032d5724a7a1ae644c920e20a21ed21950f47915:front-end/myntra/src/components/Signup/Login.js
   return (
     <div className={classes.root}>
       <Grid container className={classes.container}>
@@ -88,7 +95,11 @@ function Login(props) {
               <InputBox
                 fullWidth
                 type={passwordShown ? "password" : "text"}
+<<<<<<< HEAD:front-end/myntra/src/components/Forms/Login.js
+                id="outlined-password-input"
+=======
                 id="phone number"
+>>>>>>> 032d5724a7a1ae644c920e20a21ed21950f47915:front-end/myntra/src/components/Signup/Login.js
                 name="phone number"
                 placeholder="Password"
                 onChange={(e) => e.target.value}
@@ -105,6 +116,12 @@ function Login(props) {
                   marginTop: "15px",
                   borderRadius: "0px",
                 }}
+<<<<<<< HEAD:front-end/myntra/src/components/Forms/Login.js
+                onClick={() => {
+                  eventhandler();
+                }}
+=======
+>>>>>>> 032d5724a7a1ae644c920e20a21ed21950f47915:front-end/myntra/src/components/Signup/Login.js
               />
             </form>
             <div
