@@ -1,0 +1,13 @@
+/* All global for Home Page */
+.glb--title {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 2.2em;
+    margin: 50px 0 60px 30px;
+    max-height: 6em;
+    font-weight: 600;
+    text-align: left;
+    white-space: break-spaces;
+  }
+  
