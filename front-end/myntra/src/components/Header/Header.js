@@ -95,9 +95,6 @@ export default function Header() {
   const classes = useStyles();
 
   const menuId = "primary-search-account-menu";
-
-
-  
   const mobileMenuId = 'primary-search-account-menu-mobile';
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -159,8 +156,6 @@ export default function Header() {
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="grey">
               <Badge badgeContent={4} color="primary">
-
-
                 <LocalMallOutlinedIcon fontSize='large' />
 
               </Badge>
