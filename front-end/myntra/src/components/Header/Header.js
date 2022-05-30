@@ -97,25 +97,7 @@ export default function Header() {
   const menuId = "primary-search-account-menu";
 
 
-  const mobileMenuId = "primary-search-account-menu-mobile";
-
-  return (
-    <div className={classes.grow}>
-      <AppBar
-        position="static"
-        style={{
-          backgroundColor: "#fff",
-          paddingTop: "18px",
-          paddingBottom: "18px",
-        }}
-      >
-        <Toolbar>
-          <img
-            src={myntra_logo}
-            alt="Myntra"
-            style={{ width: "6%", paddingLeft: "30px" }}
-          ></img>
-=======
+  
   const mobileMenuId = 'primary-search-account-menu-mobile';
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -178,7 +160,6 @@ export default function Header() {
             <IconButton aria-label="show 4 new mails" color="grey">
               <Badge badgeContent={4} color="primary">
 
-                <LocalMallOutlinedIcon fontSize="large" />
 
                 <LocalMallOutlinedIcon fontSize='large' />
 

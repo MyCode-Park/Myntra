@@ -131,6 +131,7 @@ function Signup() {
                   marginTop: "15px",
                   borderRadius: "0px",
                 }}
+                onClick={() => console.log("I am working")}
               />
             </form>
             <div

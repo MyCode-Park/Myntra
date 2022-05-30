@@ -60,6 +60,10 @@ function Login(props) {
     setPasswordShown(!passwordShown);
     console.log("helloworld");
   }
+  function eventhandler(e){
+    e.preventDefault();
+    console.log("helloworld");
+  }
   return (
     <div className={classes.root}>
       <Grid container className={classes.container}>
@@ -88,7 +92,7 @@ function Login(props) {
               <InputBox
                 fullWidth
                 type={passwordShown ? "password" : "text"}
-                id="phone number"
+                id="outlined-password-input"
                 name="phone number"
                 placeholder="Password"
                 onChange={(e) => e.target.value}
@@ -104,6 +108,9 @@ function Login(props) {
                   padding: "6px 45px",
                   marginTop: "15px",
                   borderRadius: "0px",
+                }}
+                onClick={() => {
+                  eventhandler();
                 }}
               />
             </form>
