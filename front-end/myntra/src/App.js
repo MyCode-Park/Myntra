@@ -2,11 +2,11 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Home from "./components/Pages/Home/Home";
-import Signup from "./components/Signup/Signup";
+import Signup from "./components/Forms/Signup";
 import { Routes, Route } from "react-router-dom";
 
-import Login from "./components/Signup/Login";
-
+import Login from "./components/Forms/Login";
+import ResetForm from "./components/Forms/ResetForm";
 
 function App() {
   return (
@@ -27,10 +27,11 @@ function App() {
             <>
               <Header></Header>
 
-              <Login />
+              <ResetForm></ResetForm>
 
-              <Signup></Signup>
+              {/* <Login /> */}
 
+              {/* <Signup></Signup> */}
             </>
           }
         ></Route>
